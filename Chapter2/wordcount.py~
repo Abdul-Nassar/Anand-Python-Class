@@ -1,0 +1,6 @@
+import sys
+
+def main():
+	word = wordcount('foo.txt')
+	print 'Number of Words : ', word
+	

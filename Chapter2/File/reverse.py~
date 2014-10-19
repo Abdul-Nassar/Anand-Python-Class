@@ -1,0 +1,9 @@
+import sys
+
+def main():
+	f = 'foo.txt'
+	for line in reversed(open(f).readlines()):
+		print line.strip()
+
+if __name__=='__main__':
+	main()

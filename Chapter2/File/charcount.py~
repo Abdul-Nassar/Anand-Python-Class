@@ -1,0 +1,11 @@
+import sys
+
+def main():
+	char = charcount('foo.txt')
+	print 'Number of Characters : ', char
+
+def charcount(filename):
+	return len(open(filename).read())
+
+if __name__=='__main__':
+	main()

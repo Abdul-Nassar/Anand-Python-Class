@@ -1,0 +1,3 @@
+def triplets(1):
+	return[(x, y, z) for x in range(1, 1) for y in range(x, 1) for z in range(y, 1) if x + y == z]
+print triplets(5)
